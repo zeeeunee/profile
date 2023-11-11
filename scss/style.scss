@@ -3,27 +3,36 @@
 
 .wrap1 {
 	width: 70vw;
-	margin: 0, auto;
+	margin: 50px, auto;
+	border: 1px solid black;
 	display: flex;
-	flex-flow: wrap;
+	justify-content: space-between;
 
 	.left {
 		width: 30%;
 	}
 
-	.wrap2 {
+	.members {
 		width: 70%;
+		border: 1px solid red;
 		display: flex;
 		flex-flow: wrap;
+		justify-content: space-between;
 
 		.box {
-			width: 100%;
-			height: 500px;
-			justify-content: space-between;
+			width: 30%;
+			border: 1px solid yellow;
 
-			img {
-				width: 30%;
-				height: 100%;
+			.pic {
+				width: 100%;
+				height: 200px;
+				overflow: hidden;
+
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+				}
 			}
 		}
 	}
