@@ -57,7 +57,6 @@ html {
   width: 30%;
   padding-bottom: 20px;
   font-family: var(--fontBody);
-  color: var(--colorBody);
 }
 .wrap1 .members .box .pic {
   width: 100%;
@@ -71,10 +70,12 @@ html {
   object-fit: cover;
 }
 .wrap1 .members .box .pic h2 {
+  color: var(--colorTit1);
   font-size: 1.5rem;
 }
 .wrap1 .members .box .pic p {
   font-size: 1rem;
+  color: var(--colorBody);
 }
 
 /*# sourceMappingURL=style.css.map */
