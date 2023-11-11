@@ -32,9 +32,8 @@ html {
 }
 
 .wrap1 {
-  width: 70vw;
-  margin: 50px, auto;
-  border: 1px solid black;
+  width: 70%;
+  margin: 50px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -43,14 +42,12 @@ html {
 }
 .wrap1 .members {
   width: 70%;
-  border: 1px solid red;
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
 }
 .wrap1 .members .box {
   width: 30%;
-  border: 1px solid yellow;
 }
 .wrap1 .members .box .pic {
   width: 100%;
