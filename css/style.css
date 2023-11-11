@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+:root {
+  --colorTit1: #111;
+  --colorBody: #555;
+  --colorPoint1: orangered;
+  --fontTit1: "Nanum Myeongjo", "serif", "명조";
+  --fontBody: "Noto Sans KR", "arial", "돋움";
+}
+
+.wrap1 {
+  width: 70vw;
+  margin: 0, auto;
+  display: flex;
+  flex-flow: wrap;
+}
+.wrap1 .left {
+  width: 30%;
+}
+.wrap1 .wrap2 {
+  width: 70%;
+  display: flex;
+  flex-flow: wrap;
+}
+.wrap1 .wrap2 .box {
+  width: 100%;
+  height: 500px;
+  justify-content: space-between;
+}
+.wrap1 .wrap2 .box img {
+  width: 30%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
