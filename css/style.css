@@ -33,9 +33,10 @@ html {
 }
 
 .wrap1 {
-  width: 70%;
+  width: 70vw;
   margin: 50px auto;
   display: flex;
+  flex-flow: wrap;
   justify-content: space-between;
 }
 .wrap1 .left {
@@ -76,6 +77,63 @@ html {
 .wrap1 .members .box .pic p {
   font-size: 1rem;
   color: var(--colorBody);
+}
+
+@media screen and (max-width: 1199px) {
+  .wrap1 .left {
+    font-size: 2.5rem;
+  }
+  .wrap1 .members .box {
+    width: 46%;
+  }
+  .wrap1 .members .box .pic {
+    height: 300px;
+  }
+  .wrap1 .members .box .pic h2 {
+    font-size: 1.3rem;
+  }
+  .wrap1 .members .box .pic p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 779px) {
+  .wrap1 .members .box {
+    width: 46%;
+  }
+  .wrap1 .members .box .pic {
+    height: 250px;
+  }
+  .wrap1 .members .box .pic h2 {
+    font-size: 1.3rem;
+  }
+  .wrap1 .members .box .pic p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 539px) {
+  .wrap1 .left {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    font-size: 2rem;
+  }
+  .wrap1 .members {
+    width: 100%;
+    padding-left: 0px;
+    border-left: 0px;
+  }
+  .wrap1 .members .box {
+    width: 100%;
+  }
+  .wrap1 .members .box .pic {
+    height: 400px;
+  }
+  .wrap1 .members .box .pic h2 {
+    font-size: 1rem;
+  }
+  .wrap1 .members .box .pic p {
+    font-size: 0.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

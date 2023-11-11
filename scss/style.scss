@@ -2,9 +2,10 @@
 @import 'variable';
 
 .wrap1 {
-	width: 70%;
+	width: 70vw;
 	margin: 50px auto;
 	display: flex;
+	flex-flow: wrap;
 	justify-content: space-between;
 
 	.left {
@@ -48,6 +49,84 @@
 				p {
 					font-size: 1rem;
 					color: var(--colorBody);
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $labtop) {
+	.wrap1 {
+		.left {
+			font-size: 2.5rem;
+		}
+		.members {
+			.box {
+				width: 46%;
+
+				.pic {
+					height: 300px;
+
+					h2 {
+						font-size: 1.3rem;
+					}
+
+					p {
+						font-size: 0.8rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $tablet) {
+	.wrap1 {
+		.members {
+			.box {
+				width: 46%;
+
+				.pic {
+					height: 250px;
+
+					h2 {
+						font-size: 1.3rem;
+					}
+
+					p {
+						font-size: 0.8rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $mobile) {
+	.wrap1 {
+		.left {
+			width: 100%;
+			margin-bottom: 20px;
+			padding-right: 0px;
+			font-size: 2rem;
+		}
+		.members {
+			width: 100%;
+			padding-left: 0px;
+			border-left: 0px;
+			.box {
+				width: 100%;
+
+				.pic {
+					height: 400px;
+
+					h2 {
+						font-size: 1rem;
+					}
+
+					p {
+						font-size: 0.5rem;
+					}
 				}
 			}
 		}
